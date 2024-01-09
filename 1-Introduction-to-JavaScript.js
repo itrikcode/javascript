@@ -138,5 +138,21 @@ let num4 = "5";
 
 console.log(num3 == num4); // true, because the values are equal after type coercion
 
+//Closures in JavaScript:
+
+// Closures occur
+// when a function is defined within another function and has access to the outer function's variables.
+//  The inner function "closes over" the outer function's scope.
+
+function outerFuntion(outeVar){
+  function innnerFuniton(innerVar){
+    console.log(outeVar + innerVar);
+  }
+  return innnerFuniton;
+};
+
+ let outer = outerFuntion(10);
+ outer(5);//15
+
 
 
