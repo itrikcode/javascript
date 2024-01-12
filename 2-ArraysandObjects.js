@@ -97,7 +97,31 @@ let person3 = {
     }
 };
 person3.sayHello();
-//Hi Object funtion  1 123 male
+//Hi Object funtion  1 123 male\
+
+
+//json string representation an object
+
+var jsonString = '{"Name":"Vivek","age":23,"sex":"Male"}';
+
+// Logging the JSON string
+console.log(jsonString);
+
+// Parsing the JSON string to create a JavaScript object
+var jsonObj = JSON.parse(jsonString);
+
+// Logging individual properties of the JavaScript object
+console.log(jsonObj.Name, jsonObj.age, jsonObj.sex);
+
+var newJson = {
+    name:"vivek",
+    sex: "sex",
+    Type:"add"
+};
+console.log(newJson);
+var jsonToString = JSON.stringify(newJson);
+console.log(jsonToString);
+
 
 
 
