@@ -28,7 +28,7 @@ console.log(newArr);
 //shift(): Removes the first element from an array.
 newArr.shift();
 console.log(newArr);
-//[ 'vivek', 'ram' 'tes ]
+//[ TTTTTTTTTTTTTTTTTT]
 
 
 //splice(): Adds or removes elements at a specified index.
