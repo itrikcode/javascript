@@ -1,6 +1,6 @@
 let array = new Array();
 //use array constroctore
-let arr = new Array("AAA","bbb","ccc");
+let arr = new Array("AAA","bbb","44");
 console.log(arr);
 
 //using array literals
