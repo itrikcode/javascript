@@ -18,7 +18,7 @@ console.log(arrLit1);
 let newArr = ["vivek","ram","seeta"];
 newArr.unshift("ashu");
 console.log(newArr);
-//[ 'ashu', 'vivek', 'ram', 'seeta' ]
+//[ '  aaaaaaaaaaaaaaaaaaaaaaa  ]
 
 //pop(): Removes the last element from an array.
 newArr.pop();
